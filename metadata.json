@@ -1,0 +1,5 @@
+{
+  "name": "AutoReconcile AI",
+  "description": "ระบบกระทบยอดบัญชีอัตโนมัติด้วย AI พร้อมฟีเจอร์ Anomaly Detection, Smart Fix และรายงานสรุปผู้บริหาร (Executive Report) เพื่อการปรับปรุงกระบวนการ",
+  "requestFramePermissions": []
+}
