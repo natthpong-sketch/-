@@ -141,7 +141,6 @@ export const reconcileData = (bankData: BankRecord[], bookData: BookRecord[]): {
       if (bookMatchedIndices.has(bookIdx)) return false;
 
       const amtMatch = Math.abs(bankItem.total_amount - bookItem.amount) < 0.01;
-      const dateMatch = bankItem.transaction_date === bookItem.posting_date;
       
       // If Amount matches perfectly but Invoice doesn't -> Potential Match
       if (amtMatch) return true;

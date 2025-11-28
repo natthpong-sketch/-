@@ -1,5 +1,5 @@
 import React from 'react';
-import { FileText, TrendingUp, AlertTriangle, Lightbulb, CheckCircle2 } from 'lucide-react';
+import { FileText, TrendingUp, Lightbulb, CheckCircle2 } from 'lucide-react';
 
 interface Props {
   reportContent: string;

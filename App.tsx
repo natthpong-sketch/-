@@ -7,7 +7,7 @@ import { ReconciliationTable } from './components/ReconciliationTable';
 import { ReportView } from './components/ReportView';
 import { SAMPLE_BANK_CSV, SAMPLE_BOOK_CSV } from './sampleData';
 import { ReconciliationResult, SummaryStats } from './types';
-import { Upload, Play, Sparkles, RefreshCw, BarChart3, Database, FileText, ChevronRight, Activity } from 'lucide-react';
+import { Upload, Play, Sparkles, RefreshCw, BarChart3, Database, FileText } from 'lucide-react';
 
 export default function App() {
   const [bankFileContent, setBankFileContent] = useState<string>('');

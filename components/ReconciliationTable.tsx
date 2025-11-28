@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ReconciliationResult, MatchStatus } from '../types';
-import { Search, ArrowRight, ArrowLeft, Lightbulb, AlertCircle, Filter } from 'lucide-react';
+import { Search, ArrowRight, ArrowLeft, Lightbulb, AlertCircle } from 'lucide-react';
 
 interface Props {
   data: ReconciliationResult[];
